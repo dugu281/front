@@ -163,6 +163,9 @@
 			console.log(index);
 			const firstValue = Object.values(datas)[index].name;
 			console.log(firstValue); // 👉️ "Chile"
+
+			const passwordOfUser = Object.values(datas)[index].password;
+			console.log(passwordOfUser); // 👉️ "Chile"
 			user = firstValue;
 			// if (users.findIndex((e) => e.email === email)) {
 			// 	console.log(e);
@@ -181,7 +184,7 @@
 <button on:click={lowr}>lower</button> -->
 
 <!-- <h1 style="text-align: center; background:black; color:aliceblue; padding-top: 50px;">Registration Page</h1> -->
-<Users/>
+<!--<Users/>-->
 
 
 <div class="container" id="hideAfterFill">
